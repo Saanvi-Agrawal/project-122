@@ -4,7 +4,7 @@ screen_height=0;
 screen_width=0;
 draw_apple = "";
 apple="";
-sneak_data="";
+speak_data="";
 to_number="";
 
 function preload(){
@@ -56,7 +56,7 @@ function draw() {
       image(apple,x,y,50,50);
     }
     document.getElementById("status").innerHTML = to_number + " Apples drawn";
-    speed_data=to_number+"apple drawn";
+    speak_data=to_number+"apple drawn";
     speak();
     draw_apple = "";
   }
